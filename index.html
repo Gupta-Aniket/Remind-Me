@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="shortcut icon" href="icon.png">
+    <script src="javascript.js"></script>
+    <script src="mail.py"></script>
+    <title>Remind me</title>
+</head>
+<body>
+    <h1>REMIND ME!</h1>
+    <form name="important" method="POST">
+        <table class="ede">
+            <tr>
+                <td>Event: </td>
+                <td><input type="text" autocomplete="off" id="Event" placeholder="Eg.Meeting with HR" required ></td>
+            </tr>
+            <tr>
+                <td>Date: </td>
+                <td><input type="date" autocomplete="off" id="Date" min="2020-03=30" required></td>
+            </tr>
+            <tr>
+                <td>Time: </td>
+                <td><input type="time" autocomplete="off" id="Time" min="2020-03=30" required></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email" autocomplete="off" min="10" id="Email" placeholder="eg. email@gmail.com" required ></td>
+            </tr>
+        </table>            
+       <button onclick="validate()"> Done </button>
+       <br>
+       <br>
+       <p id='quote'>this service will be active till 04-04-2020 </p>
+      
+    </form>
+
+</body>
+</html>

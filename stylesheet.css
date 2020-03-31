@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+h1{
+    color: yellow;
+    font-size: 47px;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+}
+
+.ede{
+    color: yellow;
+    font-size: 40px;
+}
+
+p{
+    color: yellow;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+table{
+    width: 50%;
+    background-color: black;
+    color: yellow ;
+    font-size: 28px;
+}
+input{
+    width: 100%;
+    background-color: black;
+    color: yellow ;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 28px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+input::backdrop{
+    color: black;
+}
+input::-webkit-input-placeholder{
+    font-size: 28px;
+    color: yellow;
+}
+
+button{
+    width: 48%;
+    background-color: black;
+    color: yellow;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 28px;
+    border: 2px solid red;
+    box-sizing: border-box;
+
+}
